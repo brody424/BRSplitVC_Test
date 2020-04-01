@@ -8,14 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		1B1E5E712418E38800A7569E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1E5E702418E38800A7569E /* AppDelegate.swift */; };
-		1B1E5E732418E38800A7569E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1E5E722418E38800A7569E /* ViewController.swift */; };
 		1B1E5E762418E38800A7569E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B1E5E742418E38800A7569E /* Main.storyboard */; };
 		1B1E5E782418E38A00A7569E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B1E5E772418E38A00A7569E /* Assets.xcassets */; };
 		1B1E5E7B2418E38A00A7569E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B1E5E792418E38A00A7569E /* LaunchScreen.storyboard */; };
 		1B1E5E862418E38A00A7569E /* BRSplitVCTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1E5E852418E38A00A7569E /* BRSplitVCTestTests.swift */; };
 		1B1E5E912418E38A00A7569E /* BRSplitVCTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1E5E902418E38A00A7569E /* BRSplitVCTestUITests.swift */; };
+		1B417608242C8B990057514B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B417607242C8B990057514B /* DetailViewController.swift */; };
+		1B41760A242C8F030057514B /* DetailSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B417609242C8F030057514B /* DetailSecondViewController.swift */; };
+		1B41760C242C8F1F0057514B /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B41760B242C8F1F0057514B /* MasterViewController.swift */; };
 		1BE57B472418E42E0018A246 /* SplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE57B462418E42E0018A246 /* SplitViewController.swift */; };
-		1BE57B492418E56C0018A246 /* ChildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE57B482418E56C0018A246 /* ChildViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +39,6 @@
 /* Begin PBXFileReference section */
 		1B1E5E6D2418E38800A7569E /* BRSplitVCTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BRSplitVCTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B1E5E702418E38800A7569E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1B1E5E722418E38800A7569E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1B1E5E752418E38800A7569E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1B1E5E772418E38A00A7569E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B1E5E7A2418E38A00A7569E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,8 +49,10 @@
 		1B1E5E8C2418E38A00A7569E /* BRSplitVCTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BRSplitVCTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B1E5E902418E38A00A7569E /* BRSplitVCTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BRSplitVCTestUITests.swift; sourceTree = "<group>"; };
 		1B1E5E922418E38A00A7569E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B417607242C8B990057514B /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		1B417609242C8F030057514B /* DetailSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailSecondViewController.swift; sourceTree = "<group>"; };
+		1B41760B242C8F1F0057514B /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
 		1BE57B462418E42E0018A246 /* SplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitViewController.swift; sourceTree = "<group>"; };
-		1BE57B482418E56C0018A246 /* ChildViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,13 +104,14 @@
 			isa = PBXGroup;
 			children = (
 				1B1E5E702418E38800A7569E /* AppDelegate.swift */,
-				1B1E5E722418E38800A7569E /* ViewController.swift */,
 				1B1E5E742418E38800A7569E /* Main.storyboard */,
 				1B1E5E772418E38A00A7569E /* Assets.xcassets */,
 				1B1E5E792418E38A00A7569E /* LaunchScreen.storyboard */,
 				1B1E5E7C2418E38A00A7569E /* Info.plist */,
 				1BE57B462418E42E0018A246 /* SplitViewController.swift */,
-				1BE57B482418E56C0018A246 /* ChildViewController.swift */,
+				1B417607242C8B990057514B /* DetailViewController.swift */,
+				1B417609242C8F030057514B /* DetailSecondViewController.swift */,
+				1B41760B242C8F1F0057514B /* MasterViewController.swift */,
 			);
 			path = BRSplitVCTest;
 			sourceTree = "<group>";
@@ -262,10 +265,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B1E5E732418E38800A7569E /* ViewController.swift in Sources */,
+				1B41760A242C8F030057514B /* DetailSecondViewController.swift in Sources */,
 				1B1E5E712418E38800A7569E /* AppDelegate.swift in Sources */,
+				1B417608242C8B990057514B /* DetailViewController.swift in Sources */,
 				1BE57B472418E42E0018A246 /* SplitViewController.swift in Sources */,
-				1BE57B492418E56C0018A246 /* ChildViewController.swift in Sources */,
+				1B41760C242C8F1F0057514B /* MasterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,7 +445,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 764YCKWZ62;
+				DEVELOPMENT_TEAM = QWPA4SWLKB;
 				INFOPLIST_FILE = BRSplitVCTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -459,7 +463,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 764YCKWZ62;
+				DEVELOPMENT_TEAM = 67M6UFD2ZN;
 				INFOPLIST_FILE = BRSplitVCTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

@@ -1,14 +1,14 @@
 //
-//  ChildViewController.swift
+//  MasterViewController.swift
 //  BRSplitVCTest
 //
-//  Created by Madrascheck on 11/03/2020.
+//  Created by Madrascheck on 26/03/2020.
 //  Copyright © 2020 BRBRWorld. All rights reserved.
 //
 
 import UIKit
 
-class ChildViewController: UIViewController {
+class MasterViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
